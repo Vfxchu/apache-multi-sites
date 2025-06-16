@@ -1,0 +1,41 @@
+version: '3'
+services:
+  site1:
+    build:
+      context: ./site1
+      dockerfile: ../Dockerfile
+    ports:
+      - "81:80"
+    container_name: site1
+
+  site2:
+    build:
+      context: ./site2
+      dockerfile: ../Dockerfile
+    ports:
+      - "82:80"
+    container_name: site2
+
+  site3:
+    build:
+      context: ./site3
+      dockerfile: ../Dockerfile
+    ports:
+      - "83:80"
+    container_name: site3
+
+  site4:
+    build:
+      context: ./site4
+      dockerfile: ../Dockerfile
+    ports:
+      - "84:80"
+    container_name: site4
+
+  site5:
+    build:
+      context: ./site5
+      dockerfile: ../Dockerfile
+    ports:
+      - "85:80"
+    container_name: site5

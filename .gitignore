@@ -1,0 +1,6 @@
+*.log
+*.pid
+*.tar
+*.gz
+*.swp
+.DS_Store
